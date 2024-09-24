@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+          @apply bg-color-secndary py-2 px-6 rounded-md capitalize hover:opacity-80 ease-in duration-200 ;
+}
+.title{
+          @apply text-3xl md:text-4xl font-bold ;
+}
+.blur1{
+          @apply w-80 h-80 bg-blue-500 rounded-full absolute top-0 -left-5 z-10 opacity-30 overflow-hidden blur-3xl ;
+}
+.blur11{
+          @apply w-80 h-80 bg-blue-500 rounded-full absolute top-20 left-10  opacity-30 overflow-hidden blur-3xl ;
+}
+.blur2{
+          @apply w-80 h-80 bg-color-secndary rounded-full absolute bottom-10 -right-0 z-10 opacity-30 overflow-hidden blur-3xl
+}
+.blur22{
+          @apply w-80 h-80 bg-color-secndary rounded-full absolute bottom-10 -right-0 z-10 opacity-30 overflow-hidden blur-3xl
+}
+
+
+.input {
+          @apply bg-gray-50 border-2 border-gray-100 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secndary ;
+}
